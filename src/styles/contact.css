@@ -1,0 +1,29 @@
+.contact-div {
+    display: grid;
+    grid-template-areas: 
+        "time num"
+        "time email";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+
+.time {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    margin-left: 100px
+}
+
+.time p {
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px
+}
+
+.num, .email {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    line-height: 47px;
+}

@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #8CB1A2;
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+.social {
+    float: right
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: white;
+}
+
+.navbar a.active {
+    background-color: black;
+    color: white;
+}
+  
+  

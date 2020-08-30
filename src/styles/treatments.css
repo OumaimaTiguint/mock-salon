@@ -1,0 +1,50 @@
+.treatments {
+    height: 100vh
+}
+
+.types {
+    background: #000000;
+    border-radius: 10px;
+    color: white;
+    width: 60%;
+    margin-left: 250px;
+    display: inline-grid;
+    grid-template-areas: "side-nav names";
+    grid-template-columns: min-content max-content;
+}
+
+.side-nav {
+    grid-area: side-nav;
+    background: #8CB1A2;
+    border-radius: 10px;
+    justify-content: center;
+    width: 90px;
+}
+
+.side-nav button {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000; 
+    background-color: #8CB1A2;
+    border: none;
+    transform: rotate(-90deg);
+    padding: 10px;
+    margin-left: 10px
+}
+
+.side-nav button:hover {
+    background-color: black;
+    color: white
+}
+
+.descriptions {
+    grid-area: names;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 20px;
+    justify-content: center;
+}
